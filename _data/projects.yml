@@ -1,0 +1,25 @@
+# Open-source projects described in schema.org structured data
+# (see _layouts/default.html). Keep in sync with README.md.
+
+- name: Palworld Server Manager
+  url: https://github.com/amantu-qbit/palworld-server-manager
+  description: >-
+    Open-source desktop control panel for Palworld dedicated servers with a real-time
+    dashboard, live world map, player management, command console and save-file tools.
+  languages: [TypeScript, Rust]
+  license: https://opensource.org/licenses/MIT
+
+- name: LingoLens
+  url: https://github.com/amantu-qbit/LingoLens
+  description: >-
+    Transparent, on-device screen-translation overlay for Windows that translates
+    on-screen Chinese text to English in place, fully offline.
+  languages: ["C#"]
+  license: https://opensource.org/licenses/MIT
+
+- name: Discord All-in-One Bot
+  url: https://github.com/amantu-qbit/discord-server-stats-bot
+  description: >-
+    Discord bot with live server statistics, moderation tools, music playback and a
+    web control panel.
+  languages: [JavaScript]

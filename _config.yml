@@ -1,0 +1,88 @@
+# Site settings for the GitHub Pages portfolio.
+# README.md is the home page; _layouts/default.html turns the values below
+# into the <title>, meta description, canonical URL, Open Graph / Twitter
+# cards and JSON-LD structured data that search engines read.
+
+title: Amantu Khan
+tagline: Backend, DevOps & AI Engineer
+# Shown in Google results and browser tabs. Keep it under ~60 characters.
+seo_title: "Amantu Khan – Backend, DevOps & AI Engineer | Portfolio"
+# Shown under the title in Google results. Keep it under ~155 characters.
+description: >-
+  Backend, DevOps and AI engineer Amantu Khan builds LLM and RAG systems,
+  multi-tenant FastAPI backends, WhatsApp and SMS infrastructure, and FiveM scripts.
+
+# Canonical address of the site. If you point a custom domain at GitHub Pages
+# again, add a CNAME file and change this to that domain.
+url: "https://amantu-qbit.github.io"
+baseurl: ""
+lang: en
+locale: en_US
+theme_color: "#0d1117"
+
+# Social preview image (1200×630) used by Google, LinkedIn, X, Discord, etc.
+image: /assets/og-image.png
+image_alt: "Amantu Khan — Backend, DevOps & AI Engineer"
+
+author:
+  name: Amantu Khan
+  given_name: Amantu
+  family_name: Khan
+  username: amantu-qbit
+  job_title: Backend, DevOps & AI Engineer
+  email: amantu.khan2013@gmail.com
+  image: https://avatars.githubusercontent.com/u/67361813?v=4
+  # Profiles that belong to you. Add LinkedIn, X, etc. here; they become
+  # rel="me" links and schema.org "sameAs" so Google ties them to you.
+  same_as:
+    - https://github.com/amantu-qbit
+
+# Topics you want to be found for (schema.org "knowsAbout").
+knows_about:
+  - Backend engineering
+  - DevOps
+  - Artificial intelligence
+  - Large language models
+  - Retrieval-augmented generation
+  - Multi-tenant SaaS
+  - Python
+  - FastAPI
+  - Node.js
+  - TypeScript
+  - PostgreSQL
+  - Docker
+  - WhatsApp Cloud API
+  - Twilio
+  - Next.js
+  - SvelteKit
+  - Rust
+  - Tauri
+  - .NET
+  - FiveM
+  - QBCore
+  - ESX
+  - Lua
+
+# Search engine verification codes (optional). Paste only the content value
+# from Google Search Console / Bing Webmaster Tools, e.g. "abc123".
+google_site_verification: ""
+bing_site_verification: ""
+
+plugins:
+  - jekyll-sitemap
+
+# Serve README.md only as the home page, not also as a raw /README.md copy.
+readme_index:
+  remove_originals: true
+
+defaults:
+  - scope:
+      path: "README.md"
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
